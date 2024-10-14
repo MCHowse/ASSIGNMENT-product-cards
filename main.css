@@ -1,0 +1,98 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+
+}
+  
+h2{
+    border: solid lightblue 1px;
+    text-align: center;
+}
+
+h4{
+  margin-top: 10%;
+  margin-bottom: 0%;
+  text-emphasis: bold;
+}
+
+h5{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.card1{
+  float: left;
+  width: 33%;
+  padding: 0px 10px;
+  border: solid lightblue 5px;
+  margin-right: 20px;
+}
+
+.card-text{
+  text-align: justify;
+}
+.card-title{
+  text-align: center;
+}
+.parent{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1{
+  position: center;
+  top: 0;
+  left: 0;
+  width: max-content;
+  height: max-content; 
+}
+
+.image2{
+  position: relative;
+  background-position: top;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.image3{
+  width: auto;
+  height: 300px;
+  padding: auto;
+}
+
+.image4{
+  
+}
+.card2{
+  float: left;
+  width: 33%;
+  padding: 10px 10px 10px 10px;
+  border: solid lightblue 5px;
+  margin-right: 20px;
+}
+
+.card3{
+  float: left;
+  width: 33%;
+  padding: 0px 10px;
+  border: solid lightblue 5px;
+  margin-right: 20px;  
+}
+.avail1{
+  color: black;
+  padding: 0%;
+}
+
+.avail2{
+  color: black;
+}
+
+.avail3{
+  color: black;
+}
+
+footer{
+  top: 0%;
+  bottom: 0%;
+}
